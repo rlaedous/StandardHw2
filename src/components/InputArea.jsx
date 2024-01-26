@@ -21,8 +21,6 @@ const InputArea = ({ setTodos }) => {
     setContents("");
   };
   const submitTodo = (newTodos) => {
-    console.log(newTodos);
-    // return setTodos([...todos, newTodos]);
     return setTodos((prevTodos) => [...prevTodos, newTodos]);
   };
 
